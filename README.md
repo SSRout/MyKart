@@ -14,6 +14,8 @@ Packages For API :
  - AutoMapper.Extensions.Microsoft.DependencyInjection (Install from nuget to API project)
  - Microsoft.EntityFrameworkCore.Design (Install from nuget to API project)
  - dotnet add package System.Text.Json --version 4.7.2(Install from cli To Infrastructure Project if Serialization not working )
+ - Swashbuckle.AspNetCore.SwaggerGen (Install from nuget to API project)
+ - Swashbuckle.AspNetCore.SwaggerUi (Install from nuget to API project)
 
 Packages For SPA Client :
 
