@@ -3,3 +3,5 @@ bin
 DevAssets
 appsettings.json
 *.db
+*.png
+

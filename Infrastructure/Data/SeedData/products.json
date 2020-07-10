@@ -19,7 +19,7 @@
     "Name": "Under Armour  Speed Runner",
     "Description": "sem venenatis eleifend. Ut nonummy.",
     "Price": 180,
-    "PictureUrl": "images/products/sb-Under Armour1.png",
+    "PictureUrl": "https://source.unsplash.com/1600x900/?products,fashion,shoes,dress)",
     "ProductTypeId": 1,
     "ProductBrandId": 2
   },
@@ -35,7 +35,7 @@
     "Name": "Fila  Fast",
     "Description": " sit amet commodo magna eros quis urna.",
     "Price": 250,
-    "PictureUrl": "images/products/sb-Fila1.png",
+    "PictureUrl": "images/products/sb-Fila.png",
     "ProductTypeId": 1,
     "ProductBrandId": 4
   },
@@ -43,7 +43,7 @@
     "Name": "Nike ",
     "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
     "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
+    "PictureUrl": "images/products/sb-Nike.png",
     "ProductTypeId": 1,
     "ProductBrandId": 5
   },
@@ -51,7 +51,7 @@
     "Name": "Under Armour Blue Hat",
     "Description": "Fusce posuere",
     "Price": 10,
-    "PictureUrl": "images/products/hat-Under Armour1.png",
+    "PictureUrl": "images/products/UnderArmour.png",
     "ProductTypeId": 2,
     "ProductBrandId": 2
   },
@@ -59,7 +59,7 @@
     "Name": "Green Fila  Cap",
     "Description": "Suspendisse dui purus",
     "Price": 8,
-    "PictureUrl": "images/products/hat-Fila1.png",
+    "PictureUrl": "images/products/Fila.png",
     "ProductTypeId": 2,
     "ProductBrandId": 4
   },
@@ -67,7 +67,7 @@
     "Name": "Purple Addidas Shoes ",
     "Description": "sit amet commodo magna eros quis urna.",
     "Price": 15,
-    "PictureUrl": "images/products/hat-Fila2.png",
+    "PictureUrl": "images/products/Addidas.png",
     "ProductTypeId": 2,
     "ProductBrandId": 4
   },
@@ -75,15 +75,15 @@
     "Name": "Blue Jockey Vest",
     "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
     "Price": 18,
-    "PictureUrl": "images/products/glove-Jockey1.png",
+    "PictureUrl": "images/products/Jockeyvest.png",
     "ProductTypeId": 4,
     "ProductBrandId": 3
   },
   {
-    "Name": "Green Jockey Bottom wear",
+    "Name": "Green puma Bottom wear",
     "Description": "Proin pharetra nonummy pede. Mauris et orci.",
     "Price": 15,
-    "PictureUrl": "images/products/glove-Jockey2.png",
+    "PictureUrl": "images/products/puma.png",
     "ProductTypeId": 4,
     "ProductBrandId": 3
   },
@@ -91,7 +91,7 @@
     "Name": " Fila Slipper",
     "Description": "Lorem ipsum dolor sit amet",
     "Price": 16,
-    "PictureUrl": "images/products/glove-Fila1.png",
+    "PictureUrl": "images/products/adidas-sl.png",
     "ProductTypeId": 4,
     "ProductBrandId": 4
   },
@@ -99,7 +99,7 @@
     "Name": "Red Nike Sneaker",
     "Description": " Proin pharetra nonummy pede. Mauris et orci.",
     "Price": 14,
-    "PictureUrl": "images/products/glove-Fila2.png",
+    "PictureUrl": "images/products/add-1.png",
     "ProductTypeId": 4,
     "ProductBrandId": 4
   },
@@ -107,7 +107,7 @@
     "Name": "Addidas Red Boots",
     "Description": "Suspendisse dui purus, scelerisque at. Ut nonummy.",
     "Price": 250,
-    "PictureUrl": "images/products/boot-Addidas1.png",
+    "PictureUrl": "images/products/add-2.png",
     "ProductTypeId": 3,
     "ProductBrandId": 6
   },
@@ -115,7 +115,7 @@
     "Name": "Under Armour Black Boots",
     "Description": "sit amet commodo magna eros quis urna.",
     "Price": 189.99,
-    "PictureUrl": "images/products/boot-Under Armour2.png",
+    "PictureUrl": "images/products/add-3.png",
     "ProductTypeId": 3,
     "ProductBrandId": 2
   },
@@ -123,7 +123,7 @@
     "Name": "Under Armour  Gym",
     "Description": "Proin pharetra nonummy pede. Mauris et orci.",
     "Price": 199.99,
-    "PictureUrl": "images/products/boot-Under Armour1.png",
+    "PictureUrl": "https://source.unsplash.com/1600x900/?products,fashion,shoes,dress)",
     "ProductTypeId": 3,
     "ProductBrandId": 2
   },
@@ -131,7 +131,7 @@
     "Name": "Nike gry flipflops",
     "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
     "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
+    "PictureUrl": "images/products/nh1.png",
     "ProductTypeId": 3,
     "ProductBrandId": 1
   },
@@ -139,7 +139,7 @@
     "Name": "Nike Blue running",
     "Description": "desc",
     "Price": 180,
-    "PictureUrl": "images/products/boot-ang1.png",
+    "PictureUrl": "images/products/nh2.png",
     "ProductTypeId": 3,
     "ProductBrandId": 1
   }
