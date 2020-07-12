@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.cart-no{
+    position: absolute;
+    min-height: 25px;
+    min-width: 25px;
+    border-radius: 50%;
+    font-size: 1em;
+    background: rgb(83, 83, 236);
+    color: rgb(241, 233, 233);
+    text-align: center;
+    top: -12px;
+    right: 32px;
+}
