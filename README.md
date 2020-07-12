@@ -18,8 +18,10 @@ Packages For API :
  - Swashbuckle.AspNetCore.SwaggerUi (Install from nuget to API project)
 
 Packages For SPA Client :
-
- - 
+ - ng new Client (From Angular CLI)
+ - Add SSL Certificate
+ - ng add ngx-bootstrap (From Angular CLI)
+ - npm install font-awesome (From Angular CLI)
 
    
 
