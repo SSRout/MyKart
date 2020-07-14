@@ -3,7 +3,7 @@
     "Name": "Nike Shoes",
     "Description": " libero, sit amet commodo magna eros quis urna.",
     "Price": 200,
-    "PictureUrl": "https://source.unsplash.com/1600x900/?products,fashion,shoes,dress)",
+    "PictureUrl": "https://source.unsplash.com/160x250/?products,fashion,shoes,dress)",
     "ProductTypeId": 1,
     "ProductBrandId": 1
   },
@@ -11,7 +11,7 @@
     "Name": "Green Nike  Shirt",
     "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
     "Price": 150,
-    "PictureUrl": "https://source.unsplash.com/1600x900/?products,fashion,shoes,dress)",
+    "PictureUrl": "https://source.unsplash.com/160x250/?products,fashion,shoes,dress)",
     "ProductTypeId": 1,
     "ProductBrandId": 1
   },
@@ -19,7 +19,7 @@
     "Name": "Under Armour  Speed Runner",
     "Description": "sem venenatis eleifend. Ut nonummy.",
     "Price": 180,
-    "PictureUrl": "https://source.unsplash.com/1600x900/?products,fashion,shoes,dress)",
+    "PictureUrl": "https://source.unsplash.com/160x250/?products,fashion,shoes,dress)",
     "ProductTypeId": 1,
     "ProductBrandId": 2
   },
@@ -27,7 +27,7 @@
     "Name": "Puma Super ",
     "Description": " pharetra nonummy pede. Mauris et orci.",
     "Price": 300,
-    "PictureUrl": "https://source.unsplash.com/1600x900/?products,fashion,shoes,dress)",
+    "PictureUrl": "https://source.unsplash.com/160x250/?products,fashion,shoes,dress)",
     "ProductTypeId": 1,
     "ProductBrandId": 2
   },
@@ -123,7 +123,7 @@
     "Name": "Under Armour  Gym",
     "Description": "Proin pharetra nonummy pede. Mauris et orci.",
     "Price": 199.99,
-    "PictureUrl": "https://source.unsplash.com/1600x900/?products,fashion,shoes,dress)",
+    "PictureUrl": "https://source.unsplash.com/160x250/?products,fashion,shoes,dress)",
     "ProductTypeId": 3,
     "ProductBrandId": 2
   },

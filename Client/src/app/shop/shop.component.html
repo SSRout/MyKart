@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="row">
+
+    <section class="col-3">
+      <h5 class="text-warning ml-3">Sort</h5>
+      <select class="custom-select mb-3" (change)="onSortSelected($event.target.value)">
+        <option *ngFor="let item of sortOptions" [value]="item.value">{{item.name}}</option>
+      </select>
+
+      <h5 class="text-warning ml-3">Brands</h5>
+      <ul class="list-group my-3">
+        <li class="list-group-item" [class.active]="brand.id===this.shopParams.brandId" [value]="brand.id"
+          (click)="onBrandSelcted(brand.id)" *ngFor="let brand of Brands">{{brand.name}}</li>
+      </ul>
+      <h5 class="text-warning ml-3">Types</h5>
+      <ul class="list-group my-3">
+        <li class="list-group-item" [class.active]="type.id===this.shopParams.typeId" [value]="type.id"
+          (click)="onTypeSelected(type.id)" *ngFor="let type of Types">{{type.name}}</li>
+      </ul>
+    </section>
+
+    <section class="col-9">
+      <div class="d-flex justify-content-between align-items-center pb-2">
+          <span  *ngIf="totalCount && totalCount>0">
+            <app-paging-header 
+             [totalCount]="this.totalCount"
+             [pageSize]="this.shopParams.pageSize" 
+             [pageNumber]="this.shopParams.pageNumber" ></app-paging-header>
+          </span>
+          <span *ngIf="this.totalCount===0">No Result For Filter</span>
+        
+        <div class="form-inline mt-2">
+          <input (keyup.enter)="onSearch()" type="text" style="width: 300px;" placeholder="Search" class="form-control mr-2" #search>
+          <button class="btn btn-outline-success my-2 mr-2" (click)="onSearch()">Search</button>
+          <button class="btn btn-outline-info my-2" (click)="onReset()">Reset</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4 mb-4" *ngFor="let productItem of Products">
+          <app-product-item [product]="productItem"></app-product-item>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center" *ngIf="this.totalCount>0">
+        <app-pager [pageSize]="shopParams.pageSize"
+                   [totalCount]="totalCount"
+                   (pageChanged)="onPageChanged($event)">
+        </app-pager>
+      </div>
+    </section>
+  </div>
+</div>
