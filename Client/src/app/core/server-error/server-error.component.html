@@ -1,0 +1,15 @@
+<div class="container mt-5" *ngIf="error">
+    <h4>Internal Server Error : Refreshing the page will make exception disappear</h4>
+    <h5 class="text-danger">Error : {{error.message}}</h5>
+    <p class="font-weight-bold">Note : If Your seeing this then  angular probably not responsible</p>
+    <p>What To do next?</p>
+    <ol>
+        <li>Open chrome dev tool</li>
+        <li>Inspect the network tab</li>
+        <li>Check the failing request</li>
+        <li>Examin this request url - make sure this is correct</li>
+        <li>Reproducing the error in postman - if we get same response in postman, then the issue not in Angular</li>
+    </ol>
+    <p>Following is stack trace  - this is where your investigation should start!</p>
+    <code class="mt-5" style="background-color:whitesmoke">{{error.details}}</code>
+</div>

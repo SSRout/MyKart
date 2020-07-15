@@ -22,7 +22,7 @@ Packages For SPA Client :
  - Add SSL Certificate
  - ng add ngx-bootstrap (From Angular CLI)
  - npm install font-awesome (From Angular CLI)
-
+ - npm install ngx-toastr (From Angular CLI)
    
 
 
