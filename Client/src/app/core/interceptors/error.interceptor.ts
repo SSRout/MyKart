@@ -4,6 +4,7 @@ import { Observable, throwError } from 'rxjs';
 import {Router, NavigationExtras} from '@angular/router';
 import { catchError } from 'rxjs/internal/operators/catchError';
 import {ToastrService} from 'ngx-toastr';
+import { delay } from 'rxjs/operators';
 @Injectable()
 export class ErrorInterceptor implements HttpInterceptor {
 

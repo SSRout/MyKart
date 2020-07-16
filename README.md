@@ -23,6 +23,8 @@ Packages For SPA Client :
  - ng add ngx-bootstrap (From Angular CLI)
  - npm install font-awesome (From Angular CLI)
  - npm install ngx-toastr (From Angular CLI)
+ - npm install xng-breadcrumb (From Angular CLI)
+ - npm install ngx-spinner (From Angular CLI)
    
 
 
