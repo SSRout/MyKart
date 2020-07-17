@@ -16,6 +16,8 @@ Packages For API :
  - dotnet add package System.Text.Json --version 4.7.2(Install from cli To Infrastructure Project if Serialization not working )
  - Swashbuckle.AspNetCore.SwaggerGen (Install from nuget to API project)
  - Swashbuckle.AspNetCore.SwaggerUi (Install from nuget to API project)
+ - StackExchange.Redis (Install From nuget To Infrastructure Project)
+ - For Windows Redis Setup [a link](https://github.com/MicrosoftArchive/redis/releases)
 
 Packages For SPA Client :
  - ng new Client (From Angular CLI)
