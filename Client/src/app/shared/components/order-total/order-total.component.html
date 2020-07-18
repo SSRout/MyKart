@@ -1,0 +1,20 @@
+<div class="bg-light px-4 py-3 text-uppercase font-weight-bold">Order Summary</div>
+<div class="p-4">
+    <p class="font-italic mb-4">Total was Calculated based on price during Checkout</p>
+    <ul class="list-unstyled mb-4" *ngIf="(basketTotal$|async) as total">
+        <li class="d-flex justify-content-between py-3 border-bottom">
+            <strong class="text-muted">Order Sub Total</strong>
+            <strong class="text-muted">{{total.subtotal|currency}}</strong>
+        </li>
+
+        <li class="d-flex justify-content-between py-3 border-bottom">
+            <strong class="text-muted">Shipping and Handling</strong>
+            <strong class="text-muted">{{total.shipping|currency}}</strong>
+        </li>
+       
+        <li class="d-flex justify-content-between py-3 border-bottom">
+            <strong class="text-muted">Total</strong>
+            <strong class="text-muted">{{total.total|currency}}</strong>
+        </li>
+    </ul>
+</div>

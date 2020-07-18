@@ -17,7 +17,7 @@ Packages For API :
  - Swashbuckle.AspNetCore.SwaggerGen (Install from nuget to API project)
  - Swashbuckle.AspNetCore.SwaggerUi (Install from nuget to API project)
  - StackExchange.Redis (Install From nuget To Infrastructure Project)
- - For Windows Redis Setup [a link](https://github.com/MicrosoftArchive/redis/releases)
+ - For Windows Redis Setup [link](https://github.com/MicrosoftArchive/redis/releases)
 
 Packages For SPA Client :
  - ng new Client (From Angular CLI)
@@ -27,6 +27,7 @@ Packages For SPA Client :
  - npm install ngx-toastr (From Angular CLI)
  - npm install xng-breadcrumb (From Angular CLI)
  - npm install ngx-spinner (From Angular CLI)
+ - npm install uuid (From Angular CLI)
    
 
 
