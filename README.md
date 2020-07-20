@@ -18,6 +18,12 @@ Packages For API :
  - Swashbuckle.AspNetCore.SwaggerUi (Install from nuget to API project)
  - StackExchange.Redis (Install From nuget To Infrastructure Project)
  - For Windows Redis Setup [link](https://github.com/MicrosoftArchive/redis/releases)
+ - Microsoft.AspNetCore.Identity (Install From nuget To Infrastructure Project)
+ - Microsoft.AspNetCore.Identity.EntityFrameworkCore (Install From nuget To Infrastructure Project)
+ - Microsoft.IdentityModel.Tokens (Install From nuget To Infrastructure Project)
+ - System.IdentityModel.Tokens.Jwt (Install From nuget To Infrastructure Project)
+ - Microsoft.AspNetCore.Authentication.JwtBearer (Install from nuget to API project)
+ - Microsoft.Extensions.Identity.Stores (Install from nuget to Core project)
 
 Packages For SPA Client :
  - ng new Client (From Angular CLI)
