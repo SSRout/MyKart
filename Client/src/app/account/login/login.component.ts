@@ -1,4 +1,4 @@
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { AccountService } from './../account.service';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
@@ -10,11 +10,12 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
   loginForm:FormGroup;
-
-  constructor(private accountService:AccountService,private router:Router) { }
+  returnUrl:string;
+  constructor(private accountService:AccountService,private router:Router,private activatedRoute:ActivatedRoute) { }
 
   ngOnInit(): void {
     this.craeteLoginForm();
+    this.returnUrl=this.activatedRoute.snapshot.queryParams.returnUrl||'/shop';
   }
 
   craeteLoginForm(){
@@ -27,7 +28,7 @@ export class LoginComponent implements OnInit {
   onSubmit(){
     this.accountService.login(this.loginForm.value).subscribe(()=>{
       console.log("loged in");
-      this.router.navigateByUrl('/shop');
+      this.router.navigateByUrl(this.returnUrl);
     },error=>{
       console.log(error);
     });
