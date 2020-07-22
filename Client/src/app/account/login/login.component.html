@@ -1,0 +1,33 @@
+<div class="d-flex justify-content-center mt-5">
+  <div class="col-3">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <!-- <label for="inputEmail" class="sr-only">Email address</label>
+      <span class="text-danger" *ngIf="loginForm.get('email').invalid 
+            && loginForm.get('email').touched 
+            && loginForm.get('email').errors['required']">Email Required</span>
+      <span class="text-danger" *ngIf="loginForm.get('email').invalid 
+            && loginForm.get('email').touched 
+            && loginForm.get('email').errors['pattern']">Email invalid</span>
+      <input formControlName="email" type="email" id="inputEmail" class="form-control" placeholder="Email address"
+        required="" autofocus="">
+      <label for="inputPassword" class="sr-only mt-2">Password</label>
+      <span class="text-danger" *ngIf="loginForm.get('password').invalid 
+            && loginForm.get('password').touched 
+            && loginForm.get('password').errors['required']">Password Required</span>
+      <input formControlName="password" type="password" id="inputPassword" class="form-control mt-2"
+        placeholder="Password" required=""> -->
+        <!--Custom input Control-->
+        <app-text-input formControlName="email" [label]="'Email Address'"></app-text-input>
+        <app-text-input formControlName="password" [label]="'Password'" [type]="'password'"></app-text-input>
+
+      <button class="btn btn-lg btn-primary btn-block mt-2" type="submit" [disabled]="loginForm.invalid">Sign in</button>
+    </form>
+  </div>
+  <!-- <div class="col-4">
+    <p>Form Status:{{loginForm.status}}</p>
+    <p>Emial Status:{{loginForm.get('email').status}}</p>
+    <p>Emial touched:{{loginForm.get('email').touched}}</p>
+    <p>Emial dirty:{{loginForm.get('email').dirty}}</p>
+    <pre>{{loginForm.value|json}}</pre>
+  </div> -->
+</div>
