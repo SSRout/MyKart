@@ -37,7 +37,7 @@ namespace Infrastructure.Services
             var deleiveryMethod = await _unitOfWork.Repository<DeliveryMethod>().GetByIDAsync(deliveryMethodId);
 
             //calculate subtotal 
-            var subTotal = items.Sum(item => item.Price * item.Qunatity);
+            var subTotal = items.Sum(item => item.Price * item.Quantity);
 
             //create order
             var order = new Order(items, buyerEmail, shipingAddress, deleiveryMethod, subTotal);

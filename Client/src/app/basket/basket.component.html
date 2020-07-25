@@ -1,26 +1,34 @@
 <div class="container mt-2">
-    <div *ngIf="(basket$|async)==null">
-        <P>Your Basket is Empty ! <a routerLink="/shop">Back To Shop</a></P>
-    </div>
-    
-    <div *ngIf="basket$|async">
-        <div class="pb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-8 py-5 mb-1">
-                       <app-basket-summary
-                          (decrement)="decrementItemQuantity($event)"
-                          (incremet)="incrementItemQuantity($event)"
-                          (remove)="removeBasketItem($event)"
-                       ></app-basket-summary>
-                    </div>
+  <div *ngIf="(basket$|async)==null">
+    <P>Your Basket is Empty ! <a routerLink="/shop">Back To Shop</a></P>
+  </div>
 
-                    <div class="col-4 py-5 mb-1">
-                        <app-order-total></app-order-total>
-                        <a [routerLink]="['/checkout']" class="btn btn-outline-primary py-2 btn-block">Proceed To Checkout</a> 
-                    </div>
-                </div>  
-            </div>
+  <div *ngIf="basket$|async">
+    <div class="pb-5">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-8 py-5 mb-1">
+            <app-basket-summary 
+              (decrement)="decrementItemQuantity($event)"
+              (incremet)="incrementItemQuantity($event)"
+              (remove)="removeBasketItem($event)" 
+              [items]="(basket$|async).items">
+            </app-basket-summary>
+          </div>
+
+          <div class="col-4 py-5 mb-1">
+            <app-order-total *ngIf="(basketTotals$ | async) as total" 
+              [shippingPrice]="total.shipping"
+              [subtotal]="total.subtotal" 
+              [total]="total.total">
+              ></app-order-total>
+            <a [routerLink]="['/checkout']" class="btn btn-outline-primary py-2 btn-block">Proceed To Checkout</a>
+          </div>
+          
         </div>
+
+      </div>
     </div>
+  </div>
 </div>
