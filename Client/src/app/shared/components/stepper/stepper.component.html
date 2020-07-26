@@ -4,6 +4,7 @@
              <button
               [class.active]="selectedIndex===i"
               (click)="onClick(i)"
+              [disabled]="true"
               class="nav-link py-3 text-uppercase font-weight-bold btn-block" style="padding: 1.20em;">
               {{step.label}} <i class="fa" [class.fa-check-circle]="step.completed" aria-hidden="true" style="color:green"></i>
             </button>

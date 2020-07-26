@@ -24,6 +24,7 @@ Packages For API :
  - System.IdentityModel.Tokens.Jwt (Install From nuget To Infrastructure Project)
  - Microsoft.AspNetCore.Authentication.JwtBearer (Install from nuget to API project)
  - Microsoft.Extensions.Identity.Stores (Install from nuget to Core project)
+ - Stripe.net (Install From nuget To Infrastructure Project)
 
 Packages For SPA Client :
  - ng new Client (From Angular CLI)
