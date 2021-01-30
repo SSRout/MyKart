@@ -37,5 +37,8 @@ Packages For SPA Client :
  - npm install uuid (From Angular CLI)
    
 
+[Reference link](https://www.udemy.com/course/learn-to-build-an-e-commerce-app-with-net-core-and-angular/)
+
+###### Thanks to Neil Cummings
 
 **✔️🍺 Happy Coding 👍😊**
